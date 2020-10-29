@@ -112,7 +112,7 @@
     flex-direction: column;
 }
 
-.contact-contents div {
+.contact-form div {
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -146,6 +146,11 @@
     #pizza-header {
         color: blue;
     }
+    .contact-contents {
+        flex-direction: column-reverse;
+        height: 90%;
+        margin: 0 auto
+    }
 }
 
 @media only screen and (min-width: 800px ) {
@@ -175,6 +180,18 @@
 .small-map {
     display: none
 }
+
+.contact-section {
+    justify-content: start;    
+}
+.contact-section >h1 {
+    margin-bottom: 12rem;
+}
+.contact-contents {
+        flex-direction: row;
+        margin: 0;
+        height: 50%;
+    }
 
 }
 

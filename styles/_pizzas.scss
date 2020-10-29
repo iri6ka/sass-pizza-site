@@ -1,0 +1,26 @@
+.pizzas-section {
+    background-color: grey;
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#pizza-header {
+    margin: 0;
+    align-self: center;
+    color: black;
+}
+
+.pizza-image {
+    height: 200px;
+    width: 200px;
+    margin: 1rem;
+}

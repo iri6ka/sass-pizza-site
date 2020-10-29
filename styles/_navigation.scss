@@ -1,0 +1,47 @@
+.nav-header {
+    background-color: $nav-background-color;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    nav {
+        margin-right: 1rem;
+    }
+
+    img {
+        height: 50px;
+        width: 50px
+    }
+
+}
+
+
+.nav-items {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{ 
+            color:$nav-item-color;
+            text-decoration: none;
+            font-size: 1.5rem;
+            padding-right: 10px;
+            border-right: 2px solid $nav-item-color;
+    }
+    a:hover {
+        color:$nav-hover-color;
+        text-decoration: underline;
+    }
+}
+
+@media only screen and (min-width: 800px ) {
+    .nav-header {
+        img {
+            height: 100px;
+            width: 100px;
+        }
+    }
+
+}
+
+
